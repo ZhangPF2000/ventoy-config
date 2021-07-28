@@ -1,0 +1,165 @@
+{
+    "control": [
+        {
+            "VTOY_DEFAULT_MENU_MODE": "1"
+        },
+        {
+            "VTOY_TREE_VIEW_MENU_STYLE": "1"
+        },
+        {
+            "VTOY_FILT_DOT_UNDERSCORE_FILE": "1"
+        },
+        {
+            "VTOY_SORT_CASE_SENSITIVE": "1"
+        },
+        {
+            "VTOY_MAX_SEARCH_LEVEL": "4"
+        },
+        {
+            "VTOY_DEFAULT_SEARCH_ROOT": "/ISO"
+        },
+        {
+            "VTOY_MENU_TIMEOUT": "10"
+        },
+        {
+            "VTOY_DEFAULT_IMAGE": "F2>Halt"
+        }
+    ],
+    "theme": {
+        "file": "/ventoy/theme/Vimix/theme.txt",
+        "gfxmode": "1920x1080",
+        "display_mode": "GUI",
+        "ventoy_left": "5%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#0000ff",
+        "fonts": [
+            "/ventoy/theme/Vimix/dejavu_32.pf2",
+            "/ventoy/theme/Vimix/dejavu_sans_12.pf2",
+            "/ventoy/theme/Vimix/dejavu_sans_14.pf2",
+            "/ventoy/theme/Vimix/dejavu_sans_16.pf2",
+            "/ventoy/theme/Vimix/dejavu_sans_24.pf2",
+            "/ventoy/theme/Vimix/dejavu_sans_48.pf2",
+            "/ventoy/theme/Vimix/terminus-12.pf2",
+            "/ventoy/theme/Vimix/terminus-14.pf2",
+            "/ventoy/theme/Vimix/terminus-16.pf2",
+            "/ventoy/theme/Vimix/terminus-18.pf2"
+        ]
+    },
+    "menu_class": [
+        {
+            "key": "MX-",
+            "class": "mx"
+        },
+        {
+            "key": "kubuntu",
+            "class": "kubuntu"
+        },
+        {
+            "key": "lubuntu",
+            "class": "lubuntu"
+        },
+        {
+            "key": "xubuntu",
+            "class": "xubuntu"
+        },
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "CentOS",
+            "class": "centos"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "key": "gentoo",
+            "class": "gentoo"
+        },
+        {
+            "key": "fedora",
+            "class": "fedora"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "parent": "/ISO/debian",
+            "class": "debian"
+        },
+        {
+            "key": "kali",
+            "class": "kali"
+        },
+        {
+            "key": "windows",
+            "class": "windows"
+        },
+        {
+            "dir": "/ISO/debian",
+            "class": "debian"
+        },
+        {
+            "dir": "/ISO/kali",
+            "class": "kali"
+        },
+        {
+            "dir": "/ISO/ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "dir": "/ISO/windows",
+            "class": "windows"
+        },
+        {
+            "key": "archlinux",
+            "dir": "/ISO/archlinux",
+            "class": "archlinux"
+        }
+    ],
+    "menu_alias": [
+        {
+            "dir": "/ISO",
+            "alias": "ISO文件目录"
+        },
+        {
+            "dir": "/ISO/debian",
+            "alias": "debian系列"
+        },
+        {
+            "dir": "/ISO/ubuntu",
+            "alias": "ubuntu系列"
+        },
+        {
+            "dir": "/ISO/kali",
+            "alias": "kali系列"
+        },
+        {
+            "dir": "/ISO/archlinux",
+            "alias": "archlinux系列"
+        },
+        {
+            "dir": "/ISO/windows",
+            "alias": "windows系列"
+        },
+        {
+            "dir": "/ISO/windows/win7",
+            "alias": "win7系列"
+        },
+        {
+            "dir": "/ISO/windows/win8",
+            "alias": "win8系列"
+        },
+        {
+            "dir": "/ISO/windows/win10",
+            "alias": "win10系列"
+        },
+        {
+            "dir": "/ISO/windows/win11",
+            "alias": "win11系列"
+        }
+    ]
+}
