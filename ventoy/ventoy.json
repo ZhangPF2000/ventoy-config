@@ -1,29 +1,9 @@
 {
     "control": [
-        {
-            "VTOY_DEFAULT_MENU_MODE": "1"
-        },
-        {
-            "VTOY_TREE_VIEW_MENU_STYLE": "1"
-        },
-        {
-            "VTOY_FILT_DOT_UNDERSCORE_FILE": "1"
-        },
-        {
-            "VTOY_SORT_CASE_SENSITIVE": "1"
-        },
-        {
-            "VTOY_MAX_SEARCH_LEVEL": "4"
-        },
-        {
-            "VTOY_DEFAULT_SEARCH_ROOT": "/ISO"
-        },
-        {
-            "VTOY_MENU_TIMEOUT": "10"
-        },
-        {
-            "VTOY_DEFAULT_IMAGE": "F2>Halt"
-        }
+        {"VTOY_DEFAULT_MENU_MODE": "1"},
+        {"VTOY_TREE_VIEW_MENU_STYLE": "1"},
+        {"VTOY_FILT_DOT_UNDERSCORE_FILE": "1"},
+        {"VTOY_DEFAULT_SEARCH_ROOT": "/ISO"}
     ],
     "theme": {
         "file": "/ventoy/theme/Vimix/theme.txt",
@@ -47,8 +27,34 @@
     },
     "menu_class": [
         {
-            "key": "MX-",
-            "class": "mx"
+            "key": "CentOS",
+            "parent": "/ISO/centos",
+            "class": "centos"
+        },
+        {
+            "key": "debian",
+            "parent": "/ISO/debian",
+            "class": "debian"
+        },
+        {
+            "key": "deepin",
+            "parent": "/ISO/deepin",
+            "class": "deepin"
+        },
+        {
+            "key": "fedora",
+            "parent": "/ISO/fedora",
+            "class": "fedora"
+        },
+        {
+            "key": "kali",
+            "parent": "/ISO/kali",
+            "class": "kali"
+        },
+        {
+            "key": "gentoo",
+            "parent": "/ISO/gentoo",
+            "class": "gentoo"
         },
         {
             "key": "kubuntu",
@@ -67,40 +73,28 @@
             "class": "ubuntu"
         },
         {
-            "key": "CentOS",
-            "class": "centos"
-        },
-        {
-            "key": "debian",
-            "class": "debian"
-        },
-        {
-            "key": "gentoo",
-            "class": "gentoo"
-        },
-        {
-            "key": "fedora",
-            "class": "fedora"
-        },
-        {
-            "key": "debian",
-            "class": "debian"
-        },
-        {
-            "parent": "/ISO/debian",
-            "class": "debian"
-        },
-        {
-            "key": "kali",
-            "class": "kali"
-        },
-        {
             "key": "windows",
             "class": "windows"
         },
         {
+            "dir": "/ISO/centos",
+            "class": "centos"
+        },
+        {
             "dir": "/ISO/debian",
             "class": "debian"
+        },
+        {
+            "dir": "/ISO/deepin",
+            "class": "deepin"
+        },
+        {
+            "dir": "/ISO/fedora",
+            "class": "fedora"
+        },
+        {
+            "dir": "/ISO/gentoo",
+            "class": "gentoo"
         },
         {
             "dir": "/ISO/kali",
@@ -115,9 +109,20 @@
             "class": "windows"
         },
         {
-            "key": "archlinux",
-            "dir": "/ISO/archlinux",
-            "class": "archlinux"
+            "dir": "/ISO/windows/win7",
+            "class": "windows"
+        },
+        {
+            "dir": "/ISO/windows/win8",
+            "class": "windows"
+        },
+        {
+            "dir": "/ISO/windows/win10",
+            "class": "windows"
+        },
+        {
+            "dir": "/ISO/windows/win11",
+            "class": "windows"
         }
     ],
     "menu_alias": [
@@ -126,20 +131,32 @@
             "alias": "ISO文件目录"
         },
         {
+            "dir": "/ISO/centos",
+            "alias": "centos系列"
+        },
+        {
             "dir": "/ISO/debian",
             "alias": "debian系列"
         },
         {
-            "dir": "/ISO/ubuntu",
-            "alias": "ubuntu系列"
+            "dir": "/ISO/deepin",
+            "alias": "deepin系列"
+        },
+        {
+            "dir": "/ISO/fedora",
+            "alias": "fedora系列"
+        },
+        {
+            "dir": "/ISO/gentoo",
+            "alias": "gentoo系列"
         },
         {
             "dir": "/ISO/kali",
             "alias": "kali系列"
         },
         {
-            "dir": "/ISO/archlinux",
-            "alias": "archlinux系列"
+            "dir": "/ISO/ubuntu",
+            "alias": "ubuntu系列"
         },
         {
             "dir": "/ISO/windows",
